@@ -1,18 +1,31 @@
-REST-tutorial
-=============
+Welcome to the Python RESTful API test
+======================================
 
-Files for my REST API tutorials featuring a server written in Python and a web client written in Javascript. Here are the articles:
 
-- [Designing a RESTful API with Python and Flask](http://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask)
-- [Writing a Javascript REST client](http://blog.miguelgrinberg.com/post/writing-a-javascript-rest-client)
-- [Designing a RESTful API using Flask-RESTful](http://blog.miguelgrinberg.com/post/designing-a-restful-api-using-flask-restful)
+The objetive of this test if to help us evalute your skills with:
 
-Setup
------
+    Problem Solving
+    Web Server API Design
+    Request-time data manipulation
+    Testing strategies
+    Deployment
 
-- Install Python 2.7 and git.
-- Run `setup.sh` (Linux, OS X, Cygwin) or `setup.bat` (Windows)
-- Run `./rest-server.py` to start the server (on Windows use `flask\Scripts\python rest-server.py` instead)
-- Alternatively, run `./rest-server-v2.py` to start the Flask-RESTful version of the server.
-- Open `http://localhost:5000/index.html` on your web browser to run the client
+Instructions
 
+    Fork the repo into a private repo.
+    Create a virtualenv for this project and install requirements.txt file
+    Modify the pr-api module to complete the require API endpoints
+    Let us know when you have finished.
+
+Deliverable
+
+Publish your work in a GitHub repository. Please use Python 3.x for your coding. Feel free to modify this readme to give any additional information a reviewer might need.
+If you need more than 2 - 3 hours to do this, you might be overthinking, feel free to add improvement notes in your README file, show-off there :)
+
+
+Notes
+
+* Feel free to use any approach to deliver us the code..hint: A big bonus if you give us a Dockerfile we can just boot up and see application working
+* Indicate what testing approach are you using...TDD, write code and test later, mocking, and tell us how to test your code
+* Using MongoDB is required to store and retrieve data
+* Try to adhere to Python etiquette (idiomatic and PEP-8 compliant code)
